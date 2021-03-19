@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
-import Sidebar from '../components/Sidebar';
+import Channelbar from '../components/Channelbar';
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 		  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"/>
     </Head>
-    <Nav text="Chat App"/>
-    <Sidebar />
+    <Nav cont="Chat App"/>
+    <Channelbar />
     </> 
   )
 }
