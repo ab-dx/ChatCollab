@@ -1,4 +1,4 @@
-wf
+
 
 export default function Channelbar(props){
     return(
