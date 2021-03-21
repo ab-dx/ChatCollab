@@ -4,12 +4,8 @@ import Channelbar from '../components/Channelbar';
 import React, { useState, useEffect } from 'react';
 
 export default function Home() {
- 
-  useEffect(() => {
-    fetch('/time').then(res => res.json()).then(data => {
-      setCurrentTime(data.time);
-    });
-  }, []);
+   
+  
   return (
     <> 
     <Head>
@@ -20,7 +16,9 @@ export default function Home() {
     </Head>
     <Nav cont="Chat App"/>
     <Channelbar />
-     
+    
+    
     </> 
+    
   )
 }

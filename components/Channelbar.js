@@ -1,7 +1,12 @@
-
+import React, { useState, useEffect } from 'react';
 
 export default function Channelbar(props){
+   
+
+  
+   
     return(
+     
         <>
          <div style={{ backgroundColor: "#2f3136", width: 180, position: 'absolute'}} className="text-white shadow-sm p-4 h-screen ">
            Test
@@ -12,7 +17,8 @@ export default function Channelbar(props){
            // const res = await req.json();
             
             console.table(req);
-
+           
+           
           }}>Test go brr</button>
          </div>
         </>
